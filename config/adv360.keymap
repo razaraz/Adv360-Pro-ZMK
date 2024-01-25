@@ -41,7 +41,7 @@
       timeout-ms = <200>;
       key-positions = <20 21 34 39>;
       bindings = <&tog DVORAK>;
-    }
+    };
   };
 
   keymap {
