@@ -68,11 +68,11 @@
     };
     programmer_dvorak_shift {
       bindings = <
-        &kp PRCNT &kp N7    &kp N5    &kp N3    &kp N1    &kp N9    &trans                                           &trans &kp N0    &kp N2    &kp N4    &kp N6    &kp N8    &kp GRAVE
-        &trans    &kp COLON &kp LT    &kp GT    &kp LS(P) &kp LS(Y) &trans                                           &trans &kp LS(F) &kp LS(G) &kp LS(C) &kp LS(R) &kp LS(L) &kp PIPE
-        &trans    &kp LS(A) &kp LS(O) &kp LS(E) &kp LS(U) &kp LS(I) &trans        &trans &trans &trans &trans        &trans &kp LS(D) &kp LS(H) &kp LS(T) &kp LS(N) &kp LS(S) &kp UNDERSCORE
-        &trans    &kp DQT   &kp LS(Q) &kp LS(J) &kp LS(K) &kp LS(X)                      &trans &trans                      &kp LS(B) &kp LS(M) &kp LS(W) &kp LS(V) &kp LS(Z) &trans
-        &trans    &kp TILDE &trans    &kp QMARK &kp CARET                  &trans &trans &trans &trans &trans &trans                  &trans    &trans    &trans    &trans    &trans
+        &kp PRCNT   &kp N7    &kp N5    &kp N3    &kp N1    &kp N9    &trans                                                                                   &trans &kp N0    &kp N2    &kp N4    &kp N6    &kp N8    &kp GRAVE
+        &kp LS(TAB) &kp COLON &kp LT    &kp GT    &kp LS(P) &kp LS(Y) &trans                                                                                   &trans &kp LS(F) &kp LS(G) &kp LS(C) &kp LS(R) &kp LS(L) &kp PIPE
+        &kp LS(ESC) &kp LS(A) &kp LS(O) &kp LS(E) &kp LS(U) &kp LS(I) &trans              &kp LS(LCTRL) &kp LS(LALT) &kp LS(LGUI)  &kp LS(RCTRL)               &trans &kp LS(D) &kp LS(H) &kp LS(T) &kp LS(N) &kp LS(S) &kp UNDERSCORE
+        &trans      &kp DQT   &kp LS(Q) &kp LS(J) &kp LS(K) &kp LS(X)                                   &kp LS(HOME) &kp LS(PG_UP)                                    &kp LS(B) &kp LS(M) &kp LS(W) &kp LS(V) &kp LS(Z) &trans
+        &trans      &kp TILDE &trans    &kp QMARK &kp CARET                  &kp LS(BSPC) &kp LS(DEL)   &kp LS(END)  &kp LS(PG_DN) &kp LS(ENTER) &kp LS(SPACE)                  &trans    &trans    &trans    &trans    &trans
       >;
     };
     keypad {
