@@ -9,8 +9,8 @@
 #define DVORAK 1       // white
 #define DVORAK_SHIFT 2 // blue
 #define NUMPAD 3       // green
-#define FN 4           // red?
-#define MOD 5          // ?
+#define FN 4           // red
+#define MOD 5          // purple
 
 / {
     behaviors {
